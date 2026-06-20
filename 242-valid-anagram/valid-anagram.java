@@ -30,9 +30,17 @@ class Solution {
 }
     //create hasmap of size 26 denote with values 0 from a-z 0-25 ,map[s[i]-'a']++ now increase frequency in map according to s
     //now iterate t and decrease value in hashmap and at last check which value in hashmap is not 0 return false
-
-
-      
+        // HashMap<Integer, Integer> map = new HashMap<>();
+        //     for(int i=0;i<nums.length;i++){
+        //         if(map.find(n[i])!=map.end()){
+        //             return false;
+        //             break;
+        //         }
+        //         map[i]=num[i];
+        //         return true;
+        //     }
+          
+ 
       
       
       
