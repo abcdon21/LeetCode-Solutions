@@ -41,3 +41,11 @@ class Solution {
         return head;
     }
 }
+
+//prev=null
+// current=head
+// while(current!=null)
+// node next=current.next
+// current.next=prev
+// prev=current
+// current=next
