@@ -1,5 +1,6 @@
 class Solution {
     public List<List<Integer>> generate(int numRows) {
+        //2d list for answer and 1d list for row
         List<List<Integer>> ans = new ArrayList<>();
 
         for (int i = 0; i < numRows; i++) {
