@@ -1,7 +1,7 @@
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         //2d list for answer and 1d list for row
-        List<List<Integer>> ans = new ArrayList<>();
+        List<List<Integer>> triangle = new ArrayList<>();
 
         for (int i = 0; i < numRows; i++) {
             List<Integer> row = new ArrayList<>();
@@ -12,9 +12,9 @@ result = result * (i - j + 1) / j;
 row.add(result);
             }
 
-            ans.add(row);
+            triangle.add(row);
         }
 
-        return ans;
+        return triangle;
     }
 }
