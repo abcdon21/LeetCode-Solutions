@@ -7,10 +7,9 @@ class Solution {
             List<Integer> row = new ArrayList<>();
       int result = 1;
     row.add(result);
-
-            for (int j = 1; j <= i; j++) {
-                result = result * (i - j + 1) / j;
-                row.add(result);
+for (int j = 1; j <= i; j++) {
+result = result * (i - j + 1) / j;
+row.add(result);
             }
 
             ans.add(row);
